@@ -1,0 +1,56 @@
+#outer
+{
+  border-style:solid;
+  border-color:black;
+  border-width:1px 1px;
+  margin:0px 150px;
+  height:600px;
+}
+
+#header a
+{
+   color:white;
+   text-decoration:none;
+}
+
+#header
+{
+  color:red;
+  text-align:center;
+  border-style:solid;
+  border-color:black;
+  border-width:1px 1px;
+  float:left;
+  margin-top:10px;
+  margin-left:20px;
+  background: linear-gradient(to right,orange,blue,white);
+}
+
+#searchbox
+{
+  border-style:solid;
+  border-color:black;
+  border-width:1px 1px;
+  float:right;
+  width: 300px;
+  margin-right:80px;
+  margin-top:30px;
+  padding:20px 0px;
+    background: linear-gradient(to left,orange,blue,white);
+}
+
+
+#search
+{
+  margin-left:20px;
+  float:left;
+  height:30px;
+  background: white url(images/LogoMakr-3xRGir.png) no-repeat right center;
+}
+#press
+{
+   margin-right:40px;
+   float:right;
+   height:30px;
+   width:50px;
+}
