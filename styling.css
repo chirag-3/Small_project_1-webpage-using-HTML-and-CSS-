@@ -1,5 +1,8 @@
 body{
   background: linear-gradient(black,white);
+  background: -o-linear-gradient(black,white);
+  background: -webkit-linear-gradient(black,white);
+  background: -moz-linear-gradient(black,white);
 }
 #outer
 {
@@ -27,6 +30,9 @@ body{
   margin-top:10px;
   margin-left:20px;
   background: linear-gradient(to right,orange,blue,white);
+  background: -o-linear-gradient(to right,orange,blue,white);
+  background: -moz-linear-gradient(to right,orange,blue,white);
+  background: -webkit-linear-gradient(to right,orange,blue,white);
 }
 
 #searchbox
@@ -40,6 +46,9 @@ body{
   margin-top:30px;
   padding:20px 0px;
     background: linear-gradient(to left,orange,blue,white);
+    background: -webkit-linear-gradient(to left,orange,blue,white);
+    background: -o-linear-gradient(to left,orange,blue,white);
+    background: -moz-linear-gradient(to left,orange,blue,white);
 }
 
 
@@ -63,22 +72,29 @@ body{
   border:1px black solid;
   height:60px;
   margin-top:150px;
-  padding: 7px 7px;
+  /* padding: 7px 7px; */
   /* background-color:yellow; */
   background:linear-gradient(to right,yellow,white,orange);
+  background:-webkit-linear-gradient(to right,yellow,white,orange);
+  background:-moz-linear-gradient(to right,yellow,white,orange);
+  background:-o-linear-gradient(to right,yellow,white,orange);
 }
 
 #list ul li a{
   text-decoration:none;
   color:red;
-  transition: font-size 0.5s ease;
+  transition:font-size 0.5s ease;
+  -ms-transition:font-size 0.5s ease;
+  -moz-transition:font-size 0.5s ease;
+  -webkit-transition:font-size 0.5s ease;
+  -o-transition:font-size 0.5s ease;
   /* transition:color 0.5s ease; */
 
 }
 
 #list ul li a:hover{
   color:black;
-  font-size:40px;
+  font-size:32px;
 }
 
 #list ul li:last-child{
@@ -124,6 +140,10 @@ body{
 .sidebars ul li a{
   text-decoration:none;
   transition:font-size 0.5s ease;
+  -ms-transition:font-size 0.5s ease;
+  -moz-transition:font-size 0.5s ease;
+  -o-transition:font-size 0.5s ease;
+  -webkit-transition:font-size 0.5s ease;
 }
 
 .sidebars ul li a:hover{
@@ -139,6 +159,9 @@ body{
   margin-top:30px;
   width:460px;
   background:linear-gradient(to right,orange,yellow);
+  -webkit-background:linear-gradient(to right,orange,yellow);
+  -moz-background:linear-gradient(to right,orange,yellow);
+  -o-background:linear-gradient(to right,orange,yellow);
 }
 
 .sidebars #rightsidebar{
@@ -149,12 +172,18 @@ body{
   margin-top:30px;
   width:460px;
   background:linear-gradient(to left,orange,yellow);
+  -webkit-background:linear-gradient(to left,orange,yellow);
+  -moz-background:linear-gradient(to left,orange,yellow);
+  -o-background:linear-gradient(to left,orange,yellow);
 }
 
 #footer{
   margin-top:210px;
   /* padding-left:40px; */
   background:linear-gradient(to right,orange,white,yellow);
+  -webkit-background:linear-gradient(to right,orange,white,yellow);
+  -moz-background:linear-gradient(to right,orange,white,yellow);
+  -o-background:linear-gradient(to right,orange,white,yellow);
   clear:both;
   /* height:30px; */
   padding:10px 0px 10px 40px;
