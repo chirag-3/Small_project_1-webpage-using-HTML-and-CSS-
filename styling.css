@@ -1,10 +1,13 @@
+body{
+  background: linear-gradient(black,white);
+}
 #outer
 {
-  border-style:solid;
-  border-color:black;
-  border-width:1px 1px;
+  /* border-style:solid; */
+  /* border-color:black; */
+  /* border-width:1px 1px; */
   margin:0px 150px;
-  height:950px;
+  /* height:950px; */
 }
 
 #header a
@@ -104,4 +107,55 @@
 #content p{
   margin-left:25px;
   margin-right:25px;
+}
+
+.sidebars ul{
+  list-style:none;
+  text-transform:uppercase;
+}
+
+.sidebars li{
+  margin:10px 30px;
+  background:url(images/arrow.png) no-repeat left center;
+  padding-left:40px;
+  margin:20px 0px;
+}
+
+.sidebars ul li a{
+  text-decoration:none;
+  transition:font-size 0.5s ease;
+}
+
+.sidebars ul li a:hover{
+  font-size:35px;
+  color:black;
+}
+
+.sidebars #leftsidebar{
+  border:1px black solid;
+  border-radius:3px;
+  float:left;
+  margin-left:50px;
+  margin-top:30px;
+  width:460px;
+  background:linear-gradient(to right,orange,yellow);
+}
+
+.sidebars #rightsidebar{
+  border:1px black solid;
+  border-radius:3px;
+  float:right;
+  margin-right:50px;
+  margin-top:30px;
+  width:460px;
+  background:linear-gradient(to left,orange,yellow);
+}
+
+#footer{
+  margin-top:210px;
+  /* padding-left:40px; */
+  background:linear-gradient(to right,orange,white,yellow);
+  clear:both;
+  /* height:30px; */
+  padding:10px 0px 10px 40px;
 }
